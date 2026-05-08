@@ -5,7 +5,7 @@
 
 <x-layout>
   
-  <form method=""POST action="/ideas" >
+  <form method="POST" action="/ideas" >
    @csrf
    <div class="col-span-full">
       <label for="idea" class="block text-sm/6 font-medium text-white">New Idea</label>
